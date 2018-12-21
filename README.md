@@ -12,5 +12,5 @@ After entering your location and preferences into the console, the program will 
   
 
 ## Extra notes:
-+ The map is limited by the number of results availible by the Yelp Fusion API.
-+ At this time, the console and csv file cannot display characters that must be decoded from Unicode (ie: Chinese characters). 
++ The map is limited by the number of results available by the Yelp Fusion API.
++ At this time, the console and CSV file cannot display characters that must be decoded from Unicode (ie: Chinese characters). 

@@ -7,7 +7,7 @@ After entering your location and preferences into the console, the program will 
   * The heatmap can also be customized to show higher-rated shops with more weight on the map so that you know where to get the best boba!
 + A **CSV file** that shows the shops and corresponding locations that are used by the map (featured_location_results.csv).
   
-  ![Heatmap Screenshot](heatmap_screenshot.png "Heatmap Screenshot")
+  ![Heatmap Screenshot](heatmap_screenshot.PNG "Heatmap Screenshot")
 
   
 

@@ -15,7 +15,7 @@ except ImportError:
     # Fall back to Python 2's urllib2 and urllib
     from urllib2 import HTTPError
 
-API_KEY = '' #API key 
+API_KEY = '' #API KEY
 
 # function borrowed from https://github.com/Yelp/yelp-fusion/blob/master/fusion/python/sample.py
 def request(host, path, api_key, url_params=None):
@@ -86,7 +86,7 @@ def main():
         max_results = response_json['total']
 
         # initialize table header
-        headers = ['Name', 'lat', 'lon', 'Amount', 'City']
+        headers = ['Name', 'lat', 'lon', 'Amount','Address','City']
 
         #form business data in 2D array
         for entry in response_businesses:
@@ -99,6 +99,7 @@ def main():
                         entry["coordinates"]["latitude"],
                         entry["coordinates"]["longitude"],
                         amount_entry,
+                        entry['location']['address1'],
                         entry['location']['city']]
             list_of_businesses.append(row);
 
@@ -110,7 +111,7 @@ def main():
     if ratings_weighted:
         for_map_print = for_map
     else:
-        for_map_print = for_map[['Name', 'lat', 'lon', 'City']]
+        for_map_print = for_map[['Name', 'lat', 'lon', 'Address','City']]
 
     #try to print table on console
     try:

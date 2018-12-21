@@ -6,6 +6,8 @@ import json
 import requests
 import csv
 import sys
+import ast
+import codecs
 try:
     # For Python 3.0 and later
     from urllib.error import HTTPError
@@ -13,7 +15,7 @@ except ImportError:
     # Fall back to Python 2's urllib2 and urllib
     from urllib2 import HTTPError
 
-API_KEY = '' #API key here
+API_KEY = '' #API KEY HERE
 
 # function borrowed from https://github.com/Yelp/yelp-fusion/blob/master/fusion/python/sample.py
 def request(host, path, api_key, url_params=None):
@@ -54,50 +56,69 @@ def main():
         else:
             print('Your response is invalid. Try again.\n')
 
-    #send the API request
-    try:
-        response_json = request('https://api.yelp.com/v3/businesses/search?', 'location='+location+'&categories=bubbletea&limit=50', API_KEY)
-    except HTTPError as error:
-        sys.exit(
-            'Encountered HTTP error {0} on {1}:\n {2}\nAbort program.'.format(
-                error.code,
-                error.url,
-                error.read(),
-            )
-        )
-
-    #response has no results if it's an invalid location
-    response_businesses = response_json['businesses'];
-    if len(response_businesses) == 0:
-        sys.exit('\nLocation does not have any boba shops or location does not exist :(')
-
-    #open a csv file to write to
-    f = csv.writer(open("featured_location_results.csv", "w", encoding="ISO-8859-1"), lineterminator='\n')
-
-    # write csv header
-    headers = ['Name', 'lat', 'lon', 'Amount', 'City']
-    f.writerow(headers)
-
-    #form business data in 2D array while also writing to csv file
     list_of_businesses=[]
-    for entry in response_businesses:
-        if ratings_weighted:
-            amount_entry = entry["rating"]
-        else:
-            amount_entry = 1.5
-        row = [entry["name"],
-                    entry["coordinates"]["latitude"],
-                    entry["coordinates"]["longitude"],
-                    amount_entry,
-                    entry['location']['city']]
-        f.writerow(row)
-        list_of_businesses.append(row);
 
+    #make multiple calls to get all results, changing offset by the return limit
+    current_offset = 0
+    max_results = 2
+    while current_offset <= max_results:
+        #send the API request
+        try:
+            response_json = request('https://api.yelp.com/v3/businesses/search?', 'location={0}&categories=bubbletea&limit=50&offset={1}'.format(location,current_offset), API_KEY)
+        except HTTPError as error:
+            sys.exit(
+                'Encountered HTTP error {0} on {1}:\n {2}\nAbort program.'.format(
+                    error.code,
+                    error.url,
+                    error.read(),
+                )
+            )
+
+        #response has no results if it's an invalid location
+        response_businesses = response_json['businesses'];
+        if len(response_businesses) == 0:
+            if max_results == 2:
+                sys.exit('\nLocation does not have any boba shops or location does not exist :(')
+            else:
+                break
+
+        current_offset += 50
+        max_results = response_json['total']
+
+        # initialize table header
+        headers = ['Name', 'lat', 'lon', 'Amount', 'City']
+
+        #form business data in 2D array
+        for entry in response_businesses:
+            if ratings_weighted:
+                amount_entry = entry["rating"]
+            else:
+                amount_entry = 1
+
+            row = [entry["name"],
+                        entry["coordinates"]["latitude"],
+                        entry["coordinates"]["longitude"],
+                        amount_entry,
+                        entry['location']['city']]
+            list_of_businesses.append(row);
+
+    # print(list_of_businesses.decode('utf-8'))
     #turn table of data to pandas dataframe
     for_map = pd.DataFrame(list_of_businesses)
     for_map.columns = headers
+    #don't print Amount column if not used for graph
+    if ratings_weighted:
+        for_map_print = for_map
+    else:
+        for_map_print = for_map[['Name', 'lat', 'lon', 'City']]
 
-    print(for_map)
+    #try to print table on console
+    try:
+        print(for_map_print)
+    except UnicodeEncodeError:
+        print('Cannot print table here due to issue in character decoding. Check featured_location_results.csv')
+
+    for_map_print.to_csv("featured_location_results.csv", encoding='utf8')
 
     #initialize data for forming folium map and form map
     #referenced from https://alcidanalytics.com/p/geographic-heatmap-in-python

@@ -1,51 +1,117 @@
-Name,lat,lon,Amount,City
-Pearl Castle Caf�,49.1856964929706,-123.129386454821,1.5,Richmond
-Happy Lemon,49.1700119,-123.1367549,1.5,Richmond
-Tea Monarch,49.1731684,-123.1486362,1.5,Richmond
-T-Go Tea,49.1782582,-123.1213543,1.5,Richmond
-Mr Mustache Bubble Tea,49.2125070604829,-123.140618528883,1.5,Vancouver
-Shiny Tea,49.1838587,-123.1353145,1.5,Richmond
-Asaka Ramen,49.1931149107495,-123.129167854786,1.5,Richmond
-Chatime Richmond,49.1541322137523,-123.124242757242,1.5,Richmond
-Chatime,49.1784729,-123.1308378,1.5,Richmond
-Dragon Ball Tea House,49.2494649,-123.1278285,1.5,Vancouver
-Bobii Frutii,49.1789639,-123.1364351,1.5,Richmond
-Bubble World,49.186328553485,-123.12964247943,1.5,Richmond
-Fresh Elements,49.18621,-123.13344,1.5,Richmond
-Bubble Bear Cafe,49.2126959118964,-123.140492905915,1.5,Vancouver
-Wang Ji Restaurant Cafe,49.154142,-123.124236,1.5,Richmond
-Le Tea,49.1856847088399,-123.129887612201,1.5,Richmond
-Yifang Fruit Tea,49.1877764,-123.1298538,1.5,Richmond
-TTOB,49.18724,-123.12425,1.5,Richmond
-Tapio Tea,49.1948551,-123.0694188,1.5,Richmond
-Sharetea,49.18769,-123.13128,1.5,Richmond
-The Bubble Tea Shop,49.2901619,-123.1336788,1.5,Vancouver
-Coco Fresh Tea & Juice,49.1849215979924,-123.129020329589,1.5,Richmond
-Passion Tearoom,49.2799105,-123.1240264,1.5,Vancouver
-L & G Bubble Tea,49.2316503,-123.0904167,1.5,Vancouver
-Little Bean Bubble Tea House,49.1860336304316,-123.133853504838,1.5,Richmond
-45 Degree Bubble Tea House,49.2899518,-123.1282259,1.5,Vancouver
-Boba Monster,49.2321727,-123.0903989,1.5,Vancouver
-Tealips Bubble Tea & Coffee,49.2193522513716,-122.956692892385,1.5,Burnaby
-Taan Char,49.2139498,-123.1401191,1.5,Vancouver
-Bubble World,49.23097,-123.00875,1.5,Burnaby
-Gong Cha,49.169622,-123.136058,1.5,Richmond
-CoCo Fresh Tea & Juice,49.210647747919,-123.116624043789,1.5,Vancouver
-Presotea,49.170345521259,-123.182957410445,1.5,Richmond
-Fresh Elements,49.1751651,-123.1365151,1.5,Richmond
-Comebuy,49.237747,-123.1556897,1.5,Vancouver
-Chatime Langara,49.2272439177465,-123.116808906198,1.5,Vancouver
-Typhoon BBT,49.1839312913427,-123.093415684998,1.5,Richmond
-Sharetea,49.2599346,-123.1148551,1.5,Vancouver
-Blossom Teas,49.2825808112551,-122.953999689547,1.5,Burnaby
-Exposure Social House,49.1805567092563,-123.134720736557,1.5,Richmond
-Rad Tea Room,49.2833513,-123.1163056,1.5,Vancouver
-Ki Tea House Cafe,49.220812,-122.988659,1.5,Burnaby
-Presotea,49.1843955,-123.1363424,1.5,Richmond
-Pho Ever Restaurant,49.2117181823531,-123.139978162944,1.5,Vancouver
-Soho Tea Room,49.25426,-123.11477,1.5,Vancouver
-Chatime Kerrisdale,49.2311268,-123.1559262,1.5,Vancouver
-Spy Tea,49.1807945,-123.1364451,1.5,Richmond
-Shiny Tea,49.28029,-123.10675,1.5,Vancouver
-Sushi at Tea-mo,49.1843006,-123.1358871,1.5,Richmond
-Sugar Lab,49.2234556213025,-122.986080050468,1.5,Burnaby
+,Name,lat,lon,City
+0,Dragon Ball Tea House,49.2494649,-123.1278285,Vancouver
+1,The Bubble Tea Shop,49.2901619,-123.1336788,Vancouver
+2,Mr Mustache Bubble Tea,49.2125070604829,-123.140618528883,Vancouver
+3,Passion Tearoom,49.2799105,-123.1240264,Vancouver
+4,45 Degree Bubble Tea House,49.2899518,-123.1282259,Vancouver
+5,Bubble Bear Cafe,49.2126959118964,-123.140492905915,Vancouver
+6,Sharetea,49.2599346,-123.1148551,Vancouver
+7,L & G Bubble Tea,49.2316503,-123.0904167,Vancouver
+8,Boba Monster,49.2321727,-123.0903989,Vancouver
+9,Rad Tea Room,49.2833513,-123.1163056,Vancouver
+10,Shiny Tea,49.28029,-123.10675,Vancouver
+11,Soho Tea Room,49.25426,-123.11477,Vancouver
+12,Bubble Queen,49.2568617,-123.1268454,Vancouver
+13,Rad on Denman,49.2916,-123.13478,Vancouver
+14,Comebuy,49.237747,-123.1556897,Vancouver
+15,Infini Tea,49.2819052,-123.1167728,Vancouver
+16,Vietnamese Tea House,49.2810051,-123.0540795,Vancouver
+17,Happy Lemon,49.2856474,-123.1266978,Vancouver
+18,Hot Cha Cafe,49.2556974,-123.1149056,Vancouver
+19,Chatime Langara,49.2272439177465,-123.116808906198,Vancouver
+20,Chatime West Broadway,49.26391,-123.14016,Vancouver
+21,BAMBU,49.2529616,-123.0821567,Vancouver
+22,Charisma Cafe & Dessert House,49.28018,-123.10866,Vancouver
+23,Yifang  Fruit Tea,49.2909587238632,-123.134127259254,Vancouver
+24,Taan Char,49.2139498,-123.1401191,Vancouver
+25,Sencha Tea Lounge,49.2641584,-123.1810918,Vancouver
+26,Bubble World,49.2330548743708,-123.032893891828,Vancouver
+27,Chatime Kerrisdale,49.2311268,-123.1559262,Vancouver
+28,CoCo Fresh Tea & Juice,49.210647747919,-123.116624043789,Vancouver
+29,WHEATchat Bubble Tea Cafe,49.2884,-123.14069,Vancouver
+30,Buns + Boba,49.262969805638,-123.098344244063,Vancouver
+31,Green Leaf Bubble Tea,49.2322448,-123.090397,Vancouver
+32,TTOB,49.2556221,-123.1149089,Vancouver
+33,EXP Bubbletea And Lifestyle,49.2695331,-123.0695151,Vancouver
+34,Bubble King,49.2803895558461,-123.106066994369,Vancouver
+35,Pho Ever Restaurant,49.2117181823531,-123.139978162944,Vancouver
+36,Sunflower Bubble Tea,49.2380606,-123.0322633,Vancouver
+37,Pearl Castle Café,49.1856964929706,-123.129386454821,Richmond
+38,Boba Boy,49.2344252936462,-123.158102360247,Vancouver
+39,Bubble World,49.23097,-123.00875,Burnaby
+40,Chatime East Vancouver,49.280968,-123.048731,Vancouver
+41,YiFang Taiwan Fruit Tea,49.2320243,-123.0267437,Vancouver
+42,Angelove Bubble Tea,49.28088,-123.05912,Vancouver
+43,Tealips Bubble Tea & Coffee,49.2193522513716,-122.956692892385,Burnaby
+44,Seven Lemon Tea,49.2462366,-123.1014445,Vancouver
+45,Sharetea,49.2323594,-123.0254168,Vancouver
+46,Teapressu,49.29686,-123.13759,Vancouver
+47,Boba Essence,49.2700452017364,-123.103336505592,Vancouver
+48,Presotea,49.2846614799521,-123.116223519244,Vancouver
+49,Happy Lemon,49.231976,-123.0277927,Vancouver
+50,My Toan,49.2845498,-123.1123772,Vancouver
+51,Bubble Waffle Cafe,49.26086,-123.11629,Vancouver
+52,Blossom Teas,49.2825808112551,-122.953999689547,Burnaby
+53,T Cafe & Tea,49.2836325,-123.1129818,Vancouver
+54,Xing Fu Tang Canada,49.254554,-123.1149538,Vancouver
+55,Tea Monarch,49.1731684,-123.1486362,Richmond
+56,Cafe Eggstatic,49.2290734,-123.0048795,Burnaby
+57,T-Go Tea,49.1782582,-123.1213543,Richmond
+58,Asaka Ramen,49.1931149107495,-123.129167854786,Richmond
+59,Happy Lemon,49.1700119,-123.1367549,Richmond
+60,Mr. Mustache Tea & Dessert,49.22895,-122.999,Burnaby
+61,Ki Tea House Cafe,49.220812,-122.988659,Burnaby
+62,Morning Star Bubble Tea,49.3147999993571,-123.101242599844,North Vancouver
+63,Yifang Taiwan Fruit Tea,49.24966,-123.11497,Vancouver
+64,Sugar Lab,49.2234556213025,-122.986080050468,Burnaby
+65,Shiny Tea,49.1838587,-123.1353145,Richmond
+66,Comebuy,49.22916,-123.00448,Burnaby
+67,Bobacabana,49.2018489,-122.9127047,New Westminster
+68,Presotea,49.2314096664643,-123.117180035448,Vancouver
+69,Bubble World,49.186328553485,-123.12964247943,Richmond
+70,Gong Cha,49.2317904,-123.0313237,Vancouver
+71,Kung Fu Tea,49.2642349,-123.1692767,Vancouver
+72,Fresh Elements,49.18621,-123.13344,Richmond
+73,Fun Hei,49.2545499876416,-123.115009479225,Vancouver
+74,Chatime,49.1784729,-123.1308378,Richmond
+75,Bobii Frutii,49.1789639,-123.1364351,Richmond
+76,Little Tea House,49.2327,-123.11719,Vancouver
+77,Chatime Richmond,49.1541322137523,-123.124242757242,Richmond
+78,Le Tea,49.1856847088399,-123.129887612201,Richmond
+79,Yifang Fruit Tea,49.1877764,-123.1298538,Richmond
+80,TTOB,49.18724,-123.12425,Richmond
+81,Tapio Tea,49.1948551,-123.0694188,Richmond
+82,OneZo Tapioca,49.226619,-122.993358,Burnaby
+83,ZenQ,49.281151,-123.0008752,Burnaby
+84,Sharetea,49.18769,-123.13128,Richmond
+85,Belmont Cafe,49.2118824021903,-122.920856638867,New Westminster
+86,Boba Boy,49.22473,-122.98943,Burnaby
+87,Bubble Tree Cafe,49.3288962,-123.1554122,West Vancouver
+88,Shiny Tea,49.2290734,-123.0048795,Burnaby
+89,Wang Ji Restaurant Cafe,49.154142,-123.124236,Richmond
+90,Ph Tea,49.2661308,-123.2482558,Vancouver
+91,Coco Fresh Tea & Juice,49.1849215979924,-123.129020329589,Richmond
+92,Edge Yuandian Tea & Juice Bar,49.263169,-123.1255685,Vancouver
+93,鄉村 Xiangcun-Taiwanese street food house,49.2816419,-123.1328747,Vancouver
+94,T cup,49.2463325,-123.1853649,Vancouver
+95,Little Bean Bubble Tea House,49.1860336304316,-123.133853504838,Richmond
+96,Yi Fang Fruit Tea,49.2344751,-123.1558821,Vancouver
+97,Big Orange Juice Bar,49.228843,-123.000427,Burnaby
+98,Typhoon BBT,49.1839312913427,-123.093415684998,Richmond
+99,Estea Cafe Metro Place,49.2256396,-123.0046417,Burnaby
+100,Chatime,49.2260119556844,-123.001825139964,Burnaby
+101,Presotea,49.170345521259,-123.182957410445,Richmond
+102,Gong Cha,49.169622,-123.136058,Richmond
+103,Fresh Elements,49.1751651,-123.1365151,Richmond
+104,Presotea,49.1843955,-123.1363424,Richmond
+105,Exposure Social House,49.1805567092563,-123.134720736557,Richmond
+106,Sushi at Tea-mo,49.1843006,-123.1358871,Richmond
+107,Spy Tea,49.1807945,-123.1364451,Richmond
+108,Tea Plus,49.229095,-123.005007,Burnaby
+109,Little Tea House,49.2276911,-123.004423,Burnaby
+110,Sharetea,49.1691397,-123.1367549,Richmond
+111,Stir It Up Café,49.2680952,-123.2551433,Vancouver
+112,Spiritea,49.18408,-123.13404,Richmond
+113,Taan Char,49.2297572454106,-123.004409596324,Burnaby
+114,Rich Tea,49.13926,-123.13786,Richmond
+115,Bubble World,49.278851401949,-122.919416271439,Burnaby

@@ -44,13 +44,15 @@ def request(host, path, api_key, url_params=None):
 
 def main():
     #initial data collection
-    location = input('Choose a location to search in and around!\nYou may enter various locations, separated by "or" (ie: Vancouver or Richmond, BC or Burnaby, )\n>')
+    location = input('Choose a location to search in and around!\nYou may enter various locations, separated by "or" (ie: Vancouver or Richmond, BC or Burnaby)\n>')
 
+    #find category to search with
     search_category = ''
 
     while search_category == '':
         autocomplete_text = input('\nSearch for a category that you would like to locate on the map.\n>')
 
+        #request yelp to autocomplete
         try:
             response_json_autocomplete = request('https://api.yelp.com/v3/autocomplete?', 'text={0}'.format(autocomplete_text), API_KEY)
         except HTTPError as error:
@@ -62,6 +64,7 @@ def main():
                 )
             )
 
+        #if no results, prompt user to search again
         if len(response_json_autocomplete['categories']) == 0:
             while 1:
                 no_results_resp = input('No results. Would you like to search again? ([yes]/no)\n>')
@@ -71,18 +74,20 @@ def main():
                     sys.exit('Exited program.')
                 else:
                     print('Your response is invalid. Try again.\n')
+
+        #if results appear, ask user to choose and store alias value from it
         else:
             print('\nThe result(s) from the search is/are:')
 
             search_results = []
             j = 0
+            #print results and add them to search_results array to keep track of aliases
             for entry in response_json_autocomplete['categories']:
                 search_results.append(entry['alias'])
                 print('({0}) {1}\t'.format(j,entry['title']))
                 j += 1
 
-            incomplete_search = 1
-            while incomplete_search:
+            while 1:
                 search_int = input('\nPlease enter the corresponding number for your desired category or type "no" to search again\n>')
 
                 if search_int == 'no':
@@ -94,9 +99,9 @@ def main():
                         continue
                 except ValueError:
                     print('You did not input a number value. Please try again.\n')
-                    continue
+
                 search_category = search_results[int(search_int)]
-                incomplete_search = 0
+                break
 
 
     #find whether ratings should weigh on map
@@ -112,13 +117,13 @@ def main():
 
     list_of_businesses=[]
 
-    #make multiple calls to get all results, changing offset by the return limit
+    #make multiple calls to get all results or max results, changing offset by the return limit
     current_offset = 0
     max_results = 2
-    while current_offset <= max_results:
+    while current_offset <= max_results and current_offset<=950:
         #send the API request
         try:
-            response_json = request('https://api.yelp.com/v3/businesses/search?', 'location={0}&categories={1}&limit=50&offset={2}'.format(location,search_category,current_offset), API_KEY)
+            response_json = request('https://api.yelp.com/v3/businesses/search?', 'location={0}&categories={1}&limit=50&offset={2}&locale=en_CA'.format(location,search_category,current_offset), API_KEY)
         except HTTPError as error:
             sys.exit(
                 'Encountered HTTP error {0} on {1}:\n {2}\nAbort program.'.format(
@@ -129,10 +134,17 @@ def main():
             )
 
         #response has no results if it's an invalid location
-        response_businesses = response_json['businesses'];
+        try:
+            response_businesses = response_json['businesses'];
+        except KeyError:
+            print('Location not found. Try again.\n')
+            main()
+
         if len(response_businesses) == 0:
             if max_results == 2:
-                sys.exit('\nLocation does not have any results available for that category or location does not exist :(')
+                sys.exit('\nError: one or more of the following has occurred:\n'+
+                ' - Location does not have any results available for that category\n'+
+                ' - This category is not available for this country')
             else:
                 break
 
@@ -161,6 +173,9 @@ def main():
     #turn table of data to pandas dataframe
     for_map = pd.DataFrame(list_of_businesses)
     for_map.columns = headers
+    #drop entries with no location values
+    for_map=for_map.dropna(subset=['lon','lat'])
+
     #don't print Amount column if not used for graph
     if ratings_weighted:
         for_map_print = for_map
@@ -186,7 +201,6 @@ def main():
                        radius=17, blur=15,
                        max_zoom=1,
                      )
-
     hmap.add_child(hm_wide)
     hmap.save('heatmap.html')
 

@@ -1,101 +1,119 @@
 ,Name,lat,lon,Address,City
-0,La Taqueria Pinche Taco Shop,49.263559,-123.112736,2450 Yukon Street,Vancouver
-1,La Taqueria Pinche Taco Shop,49.282912,-123.110593,322 W Hastings Street,Vancouver
-2,Sal y Limón,49.2569043786921,-123.08924632997,701 Kingsway,Vancouver
-3,The Mexican Antojitos Y Cantina,49.2787726,-123.1240268,1049 Granville Street,Vancouver
-4,Bandidas Taqueria,49.2597591,-123.0700099,2781 Commercial Drive,Vancouver
-5,Gringo,49.2831553214634,-123.105335897068,27 Blood Alley Square,Vancouver
-6,Molli Cafe,49.2787703,-123.1298514,1225 Burrard Street,Vancouver
-7,Tacofino Commissary,49.28143,-123.05747,2327 E Hastings Street,Vancouver
-8,La Mezcaleria,49.2700904,-123.0694996,1622 Commercial Drive,Vancouver
-9,The Naam,49.2683459,-123.1670621,2724 W 4th Avenue,Vancouver
-10,Budgies Burritos,49.2634464768729,-123.100247082572,44 Kingsway,Vancouver
-11,Tacofino,49.28279,-123.10478,15 W Cordova Street,Vancouver
-12,La Catrina Tacos,49.2878472,-123.1411949,1187 Denman Street,Vancouver
-13,Maizal RMF,49.2600097,-123.1012988,2815 Main Street,Vancouver
-14,TAKO,49.278816,-123.1078822,601 Expo Boulevard,Vancouver
-15,Los Cuervos Taqueria Y Cantina,49.2574755005862,-123.091043941677,603 Kingsway,Vancouver
-16,The Pawn Shop YVR,49.2781015,-123.1250402,1117 Granville Street,Vancouver
-17,TacoFino,49.28202,-123.1208,Robson Street & Howe Street,Vancouver
-18,Las Margaritas Restaurant,49.2682143,-123.1500878,1999 4th Avenue W,Vancouver
-19,Tacofino Yaletown,49.2764357,-123.1194951,1025 Mainland Street,Vancouver
-20,Los Amigos Taqueria,49.2806359,-123.131852,1118 Davie Street,Vancouver
-21,La Casita,49.2830484880298,-123.1069048188,101 W Cordova Street,Vancouver
-22,Salsa & Agave Mexican Grill,49.2741224,-123.1219676,1205 Pacific Boulevard,Vancouver
-23,El Pulgarcito,49.2810051,-123.0541995,2522 E Hastings Street,Vancouver
-24,Chipotle Mexican Grill,49.2816503,-123.1210686,818 Howe St,Vancouver
-25,La Mezcaleria,49.2823341571433,-123.102739714086,68 E Cordova Street,Vancouver
-26,Las Tortas,49.2554,-123.11561,3353 Cambie Street,Vancouver
-27,El Caracol Café,49.2376421,-123.0652224,5190 Victoria Dr,Vancouver
-28,Fayuca,49.2769553,-123.1198031,1009 Hamilton Street,Vancouver
-29,Tacomio,49.2817535,-123.1074905,435 Abbott Street,Vancouver
-30,Adelitas,49.237720489502,-123.065399169922,5178 Victoria Drive,Vancouver
-31,Chancho Tortilleria,49.2762455,-123.1254103,1206 Seymour Street,Vancouver
-32,Rinconcito Salvadoreno Restaurant,49.2666081,-123.0695551,2062 Commercial Drive,Vancouver
-33,Patron Tacos & Cantina,49.2787838,-123.1155827,265 Robson St,Vancouver
-34,Milssam Tacorea,49.2750857477895,-123.121097423136,1130 Mainland Street,Vancouver
-35,Vallarta's Mexican Restaurant,49.2623059898,-123.044646027,2991 E Broadway,Vancouver
-36,Taco Luis,49.23358,-123.11725,F4-650 W 41st Avenue,Vancouver
-37,La Taqueria Pinche Taco Shop,49.2850063037387,-123.118049720433,586 Hornby Street,Vancouver
-38,Tacofino Oasis,49.2868011349216,-123.119574934244,122-1050 W Pender,Vancouver
-39,Arturo's Mexico to Go,49.2866857,-123.1138779,777 West Cordova St,Vancouver
-40,Mexicali,49.24683,-123.18486,4424 Dunbar St,Vancouver
-41,Red Burrito,49.2695908,-123.0695151,1700 Commercial Dr,Vancouver
-42,Mucho Burrito,49.2788018,-123.1290441,988 Davie Street,Vancouver
-43,La Taqueria,49.317547,-123.110836,1305 Welch Street,North Vancouver
-44,La Cantina,49.2792706,-123.1233454,722 Nelson St,Vancouver
-45,Cantina Pana,49.2726084616394,-123.148711838528,1941 Cornwall Avenue,Vancouver
-46,Sombreros Mexican Products & Taqueria,49.2766917,-123.1285811,1290 Howe Street,Vancouver
-47,La Churreria Cafe,49.28069,-123.13113,1105 Davie St,Vancouver
-48,Best Burrito,49.2631493,-123.1052246,15 W Broadway,Vancouver
-49,Red Burrito,49.2807327,-123.1191021,606 Robson St,Vancouver
-50,La Taqueria Food Truck,49.261226,-123.1139268,,Vancouver
-51,Chihuahua's Mexican Grill,49.2839508,-123.1143112,515 Seymour Street,Vancouver
-52,Lucky Taco,49.2710692786403,-123.155103591134,1685 Yew Street,Vancouver
-53,Taqueria Playa Tropical,49.2097840906051,-122.91639733055,334 6th Street,New Westminster
-54,Jarrito Loco Tacos,49.2474214517181,-123.069674012903,1707 Kingsway Street,Vancouver
-55,Cinco De Mayo Mexican Grill,49.3124808,-123.0826678,200 W Esplanade,North Vancouver
-56,Vera's On The Drive,49.2718323,-123.0696006,1438 Commercial Drive,Vancouver
-57,La Tortilleria,49.2726237,-123.1356235,1689 Johnston Street,Vancouver
-58,Chronic Tacos,49.285625,-123.111955,16-601 Cordova Street W,Vancouver
-59,Chipotle Mexican Grill,49.26292,-123.11603,532 W Broadway,Vancouver
-60,Cilantro and Jalapeño Gourmet Mexican Foods,49.3102992,-123.0820487,123 Carrie Cates Court,North Vancouver
-61,La Taqueria Pinche Taco Shop,49.2626979,-123.1011839,2521 Main Street,Vancouver
-62,Red Burrito,49.2657347235145,-123.243153334118,2192 Western Parkway,Vancouver
-63,Taco Luis,49.17576,-123.132214,1040-5300 No 3 Road,Richmond
-64,Avocado Bay,49.28723,-123.14144,1184 Denman Street,Vancouver
-65,Taco Time,49.2853284460101,-123.12155852664,1055 West Georgia Street,Vancouver
-66,Taco Time,49.2826739,-123.1181878,701 West Georgia Street,Vancouver
-67,Marimba,49.2834904,-123.0676579,1814 Triumph Street,Vancouver
-68,El Comal,49.247876818077,-122.940112248954,7650 Winston Street,Burnaby
-69,Tacomio,49.2662674077605,-123.247377835214,6025 University Blvd,Vancouver
-70,VietMex Cuisine,49.2777948120721,-123.131204657257,1310 Burrard Street,Vancouver
-71,Tacofino Ocho,49.2663679970952,-123.104530161055,8 East 5th Ave,Vancouver
-72,Chipotle Mexican Grill,49.226041558076,-123.002095517489,4700 Kingsway,Burnaby
-73,Padre Taco,49.285955,-123.119389,595 Burrard Street,Vancouver
-74,TacoTime,49.2876816,-123.1151733,FC03 200 Burrard,Vancouver
-75,Taco Shack,49.2725004,-123.1484527,Vera's Burger Shack,Vancouver
-76,Mucho Burrito,49.1980456965163,-122.979104539951,7515 Market Crossing,Burnaby
-77,Red Burrito,49.32188,-123.07282,1455 Lonsdale Ave,North Vancouver
-78,El Cartel,49.272427071205,-123.077503564531,,Vancouver
-79,Ole Ole Mexican Deli,49.21157,-122.93511,831 12 Street,New Westminster
-80,Taqueria,49.26405,-123.11505,510 W 8th Avenue,Vancouver
-81,Chipotle Mexican Grill,49.3278478493632,-123.139475697078,Unit 879 Park Royal North,West Vancouver
-82,Chronic Tacos,49.2007925517498,-122.916134308677,110-66 10th Street,New Westminster
-83,Taco Star Chili Bar,49.2721952,-123.0697645,1399 Commercial Drive,Vancouver
-84,Tacotime,49.2803343,-123.10407,8 E Pender Street,Vancouver
-85,Taco Rico,49.2791043,-123.123262,1013 Granville Street,Vancouver
-86,Pamola Bakery and Deli,49.2000426090809,-122.911609739566,810 Quayside Drive,New Westminster
-87,Taco Del Mar,49.271856,-123.0957528,420 Terminal Ave,Vancouver
-88,Chronic Tacos,49.226052,-122.999452,324-4820 Kingsway,Burnaby
-89,Guadalupe Handmade Burritos,49.2787975076124,-122.919394570988,Maggie Benston Centre Food Court,Burnaby
-90,Iwana Taco,49.2667334125809,-123.250039257109,6133 University Blvd,Vancouver
-91,Taco Time,49.28768,-123.11517,200 Burrard Street,Vancouver
-92,Quesada Burritos & Tacos,49.2779454,-122.9114988,8961 Cornerstone Mews SFU,Burnaby
-93,Quesada Burritos & Tacos,49.2018489,-122.9127047,800 Carnarvon Street,New Westminster
-94,Taco Del Mar,49.1917552479684,-123.111658031131,#108 - 3080 St. Edwards Dr,Richmond
-95,Taco Time,49.2666109,-123.0015624,4567 Lougheed Highway,Burnaby
-96,Baja at Trek Express,49.2659187,-123.254158,2015 Main Mall,Vancouver
-97,Taco Del Mar,49.1912222,-122.9462299,Unit R150 - 805 Boyd St.,New Westminster
-98,Taco Del Mar,49.1333766,-123.1364577,#128 - 11020 No 5 Rd,Richmond
-99,Taco Kwon Do,49.2837295532227,-123.129188537598,,Vancouver
+0,Dragon Ball Tea House,49.2494649,-123.1278285,1007 W King Edward Avenue,Vancouver
+1,The Bubble Tea Shop,49.2901619,-123.1336788,1680 Robson Street,Vancouver
+2,Mr Mustache Bubble Tea,49.2125070604829,-123.140618528883,8079 Granville Street,Vancouver
+3,Passion Tearoom,49.2799105,-123.1240264,1020 Howe Street,Vancouver
+4,45 Degree Bubble Tea House,49.2899518,-123.1282259,1467 West Pender Street,Vancouver
+5,Bubble Bear Cafe,49.2126959118964,-123.140492905915,8051 Granville Street,Vancouver
+6,Sharetea,49.2599346,-123.1148551,2828 Cambie Street,Vancouver
+7,L & G Bubble Tea,49.2316503,-123.0904167,5816 Fraser Street,Vancouver
+8,Boba Monster,49.2321727,-123.0903989,5766 Fraser Street,Vancouver
+9,Rad Tea Room,49.2833513,-123.1163056,80-678 Dunsmuir Street,Vancouver
+10,Shiny Tea,49.28029,-123.10675,88 W Pender Street,Vancouver
+11,Soho Tea Room,49.25426,-123.11477,3466 Cambie Street,Vancouver
+12,Bubble Queen,49.2568617,-123.1268454,3208 Oak Street,Vancouver
+13,Rad on Denman,49.2916,-123.13478,774 Denman Street,Vancouver
+14,Comebuy,49.237747,-123.1556897,5335 West Blvd,Vancouver
+15,Infini Tea,49.2819052,-123.1167728,686 Seymour Street,Vancouver
+16,Vietnamese Tea House,49.2810051,-123.0540795,2526 E Hastings Street,Vancouver
+17,Happy Lemon,49.2856474,-123.1266978,1188 Robson Street,Vancouver
+18,Hot Cha Cafe,49.2556974,-123.1149056,3306 Cambie Street,Vancouver
+19,Chatime Langara,49.2272439177465,-123.116808906198,6361 Cambie Street,Vancouver
+20,Chatime West Broadway,49.26391,-123.14016,1545 West Broadway,Vancouver
+21,BAMBU,49.2529616,-123.0821567,1090 Kingsway,Vancouver
+22,Charisma Cafe & Dessert House,49.28018,-123.10866,181 Keefer Place,Vancouver
+23,Yifang  Fruit Tea,49.2909587238632,-123.134127259254,2 - 1725 Robson Street,Vancouver
+24,Taan Char,49.2139498,-123.1401191,7908 Granville Street,Vancouver
+25,Sencha Tea Lounge,49.2641584,-123.1810918,3468 West Broadway,Vancouver
+26,Bubble World,49.2330548743708,-123.032893891828,3377 Kingsway,Vancouver
+27,Chatime Kerrisdale,49.2311268,-123.1559262,6075 W Boulevard,Vancouver
+28,CoCo Fresh Tea & Juice,49.210647747919,-123.116624043789,491 SW Marine Drive,Vancouver
+29,WHEATchat Bubble Tea Cafe,49.2884,-123.14069,1103 Denman Street,Vancouver
+30,Buns + Boba,49.262969805638,-123.098344244063,327 E Broadway,Vancouver
+31,Green Leaf Bubble Tea,49.2322448,-123.090397,5756 Fraser Street,Vancouver
+32,TTOB,49.2556221,-123.1149089,3318 Cambie Street,Vancouver
+33,EXP Bubbletea And Lifestyle,49.2695331,-123.0695151,1706 Commercial Drive,Vancouver
+34,Bubble King,49.2803895558461,-123.106066994369,88 W Pender Street,Vancouver
+35,Pho Ever Restaurant,49.2117181823531,-123.139978162944,8178 Granville Street,Vancouver
+36,Sunflower Bubble Tea,49.2380606,-123.0322633,5125 Joyce Street,Vancouver
+37,Pearl Castle Café,49.1856964929706,-123.129386454821,3779 Sexsmith Road,Richmond
+38,Boba Boy,49.2344252936462,-123.158102360247,2148 W 41st Avenue,Vancouver
+39,Bubble World,49.23097,-123.00875,4300 Kingsway,Burnaby
+40,Chatime East Vancouver,49.280968,-123.048731,2740 E Hastings Street,Vancouver
+41,YiFang Taiwan Fruit Tea,49.2320243,-123.0267437,3612 Kingsway,Vancouver
+42,Angelove Bubble Tea,49.28088,-123.05912,2228 E Hastings St,Vancouver
+43,Sharetea,49.2323594,-123.0254168,3619 Kingsway,Vancouver
+44,Tealips Bubble Tea & Coffee,49.2193522513716,-122.956692892385,7139 Arcola Way,Burnaby
+45,Seven Lemon Tea,49.2462366,-123.1014445,4385 Main St,Vancouver
+46,Teapressu,49.29686,-123.13759,,Vancouver
+47,Boba Essence,49.2700452017364,-123.103336505592,68 E 1st Ave,Vancouver
+48,Presotea,49.2846614799521,-123.116223519244,777 Dunsmuir Street,Vancouver
+49,Happy Lemon,49.231976,-123.0277927,3520 Kingsway,Vancouver
+50,Xing Fu Tang Canada,49.254554,-123.1149538,3432 Cambie St,Vancouver
+51,My Toan,49.2845498,-123.1123772,555 W Hastings Street,Vancouver
+52,Bubble Waffle Cafe,49.26086,-123.11629,555 W 12th Avenue,Vancouver
+53,Blossom Teas,49.2825808112551,-122.953999689547,7198 Barnet Road,Burnaby
+54,T Cafe & Tea,49.2836325,-123.1129818,505 W Pender Street,Vancouver
+55,Tea Monarch,49.1731684,-123.1486362,6971 Elmbridge Way,Richmond
+56,Cafe Eggstatic,49.2290734,-123.0048795,4500 Kingsway,Burnaby
+57,T-Go Tea,49.1782582,-123.1213543,4720 McClelland Road,Richmond
+58,Happy Lemon,49.1700119,-123.1367549,105 6011 No.3 Road,Richmond
+59,Asaka Ramen,49.1931149107495,-123.129167854786,2780 No.3 Road,Richmond
+60,Mr. Mustache Tea & Dessert,49.22895,-122.999,6125 Sussex Ave,Burnaby
+61,Ki Tea House Cafe,49.220812,-122.988659,6888 Royal Oak Avenue,Burnaby
+62,Morning Star Bubble Tea,49.3147999993571,-123.101242599844,998 Harbourside Drive,North Vancouver
+63,Yifang Taiwan Fruit Tea,49.24966,-123.11497,4020 Cambie St,Vancouver
+64,Sugar Lab,49.2234556213025,-122.986080050468,5376 Grimmer Street,Burnaby
+65,Shiny Tea,49.1838587,-123.1353145,4000 No 3 Rd,Richmond
+66,Comebuy,49.22916,-123.00448,1610-4500 Kingsway,Burnaby
+67,Bobacabana,49.2018489,-122.9127047,800 Carvarvon Street,New Westminster
+68,Presotea,49.2314096664643,-123.117180035448,650 W 41st Avenue,Vancouver
+69,Gong Cha,49.2317904,-123.0313237,5712 Tyne Street,Vancouver
+70,Kung Fu Tea,49.2642349,-123.1692767,2855 W Broadway,Vancouver
+71,Fresh Elements,49.18621,-123.13344,3700 No 3 Road,Richmond
+72,Bubble World,49.186328553485,-123.12964247943,1136-8328 Capstan Way,Richmond
+73,Fun Hei,49.2545499876416,-123.115009479225,3432 Cambie St,Vancouver
+74,Chatime,49.1784729,-123.1308378,160-8351 Alexandra Road,Richmond
+75,Bobii Frutii,49.1789639,-123.1364351,4800 No.3 Road,Richmond
+76,Little Tea House,49.2327,-123.11719,Oakridge Mall,Vancouver
+77,Chatime Richmond,49.1541322137523,-123.124242757242,450-9100 Blundell Road,Richmond
+78,Le Tea,49.1856847088399,-123.129887612201,3779 Sexsmith Road,Richmond
+79,Yifang Fruit Tea,49.1877764,-123.1298538,1131-8338 Capstan Way,Richmond
+80,TTOB,49.18724,-123.12425,9020 Capstan Way,Richmond
+81,Tapio Tea,49.1948551,-123.0694188,1145-2551 No 6 Road,Richmond
+82,OneZo Tapioca,49.226619,-122.993358,4929 Kingsway,Burnaby
+83,ZenQ,49.281151,-123.0008752,4569 Hastings Street,Burnaby
+84,Sharetea,49.18769,-123.13128,8300 Capstan Way,Richmond
+85,Belmont Cafe,49.2118824021903,-122.920856638867,619 Belmont Street,New Westminster
+86,Boba Boy,49.22473,-122.98943,150-5172 Kingsway,Burnaby
+87,Bubble Tree Cafe,49.3288962,-123.1554122,1443 Clyde Avenue,West Vancouver
+88,Shiny Tea,49.2290734,-123.0048795,4000 Kingsway,Burnaby
+89,Wang Ji Restaurant Cafe,49.154142,-123.124236,470-9100 Blundell Road,Richmond
+90,Coco Fresh Tea & Juice,49.1849215979924,-123.129020329589,2116-3779 Sexsmith Road,Richmond
+91,Ph Tea,49.2661308,-123.2482558,6133 University Boulevard,Vancouver
+92,Edge Yuandian Tea & Juice Bar,49.263169,-123.1255685,106-950 W  Broadway,Vancouver
+93,鄉村 Xiangcun-Taiwanese street food house,49.2816419,-123.1328747,1183 Davie Street,Vancouver
+94,T cup,49.2463325,-123.1853649,4495 Dunbar Street,Vancouver
+95,Little Bean Bubble Tea House,49.1860336304316,-123.133853504838,1055 3700 No.3 Road,Richmond
+96,Yi Fang Fruit Tea,49.2344751,-123.1558821,2112 41 St Avenue W,Vancouver
+97,Big Orange Juice Bar,49.228843,-123.000427,4700 Kingsway,Burnaby
+98,Typhoon BBT,49.1839312913427,-123.093415684998,175-11700 Cambie Road,Richmond
+99,Estea Cafe Metro Place,49.2256396,-123.0046417,4466 Beresford Street,Burnaby
+100,Chatime,49.2260119556844,-123.001825139964,2250-4700 Kingsway,Burnaby
+101,Presotea,49.170345521259,-123.182957410445,115-3671 Westminster Highway,Richmond
+102,Gong Cha,49.169622,-123.136058,130-6068 Number 3 Road,Richmond
+103,Fresh Elements,49.1751651,-123.1365151,5300 No. 3 Road,Richmond
+104,Exposure Social House,49.1805567092563,-123.134720736557,4600 No. 3 Road,Richmond
+105,Presotea,49.1843955,-123.1363424,4000 No 3 Road,Richmond
+106,Sushi at Tea-mo,49.1843006,-123.1358871,4000 No. 3 Road,Richmond
+107,Spy Tea,49.1807945,-123.1364451,4540 No. 3 Road,Richmond
+108,Tea Plus,49.229095,-123.005007,4500 Kingsway,Burnaby
+109,Little Tea House,49.2276911,-123.004423,6200 McKay Avenue,Burnaby
+110,Sharetea,49.1691397,-123.1367549,6111 No 3 Road,Richmond
+111,Stir It Up Café,49.2680952,-123.2551433,1866 Main Mall,Vancouver
+112,Spiritea,49.18408,-123.13404,Unit 1968 4151 Hazelbridge Way,Richmond
+113,Taan Char,49.2297572454106,-123.004409596324,1696-4500 Kingsway,Burnaby
+114,Ochai Brewing,49.22457,-122.9858,5411 Kingsway,Burnaby
+115,Shiny Tea,49.1663525405338,-123.13783172518,1612-6551 No. 3 Road,Richmond
+116,Rich Tea,49.13926,-123.13786,10151 No 3 Road,Richmond
+117,Bubble World,49.278851401949,-122.919416271439,8888 University Dr,Burnaby

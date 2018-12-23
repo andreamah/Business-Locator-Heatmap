@@ -1,4 +1,4 @@
-import geopandas as gpd
+# import geopandas as gpd
 import folium
 from folium.plugins import HeatMap
 import pandas as pd
@@ -44,14 +44,68 @@ def request(host, path, api_key, url_params=None):
 
 def main():
     #initial data collection
-    location = input('Choose a location to find some boba in!\nYou may enter various location, separated by "or" (ie: Vancouver or Richmond, BC or Burnaby, )\n>')
+    location = input('Choose a location to search in and around!\nYou may enter various locations, separated by "or" (ie: Vancouver or Richmond, BC or Burnaby, )\n>')
 
+    search_category = ''
+
+    while search_category == '':
+        autocomplete_text = input('\nSearch for a category that you would like to locate on the map.\n>')
+
+        try:
+            response_json_autocomplete = request('https://api.yelp.com/v3/autocomplete?', 'text={0}'.format(autocomplete_text), API_KEY)
+        except HTTPError as error:
+            sys.exit(
+                'Encountered HTTP error {0} on {1}:\n {2}\nAbort program.'.format(
+                    error.code,
+                    error.url,
+                    error.read(),
+                )
+            )
+
+        if len(response_json_autocomplete['categories']) == 0:
+            while 1:
+                no_results_resp = input('No results. Would you like to search again? ([yes]/no)\n>')
+                if no_results_resp == 'yes' or no_results_resp == '':
+                    break
+                elif no_results_resp == 'no':
+                    sys.exit('Exited program.')
+                else:
+                    print('Your response is invalid. Try again.\n')
+        else:
+            print('\nThe result(s) from the search is/are:')
+
+            search_results = []
+            j = 0
+            for entry in response_json_autocomplete['categories']:
+                search_results.append(entry['alias'])
+                print('({0}) {1}\t'.format(j,entry['title']))
+                j += 1
+
+            incomplete_search = 1
+            while incomplete_search:
+                search_int = input('\nPlease enter the corresponding number for your desired category or type "no" to search again\n>')
+
+                if search_int == 'no':
+                    break
+
+                try:
+                    if int(search_int) >= len(search_results) or int(search_int) < 0:
+                        print('Number out of range. Please try again.\n')
+                        continue
+                except ValueError:
+                    print('You did not input a number value. Please try again.\n')
+                    continue
+                search_category = search_results[int(search_int)]
+                incomplete_search = 0
+
+
+    #find whether ratings should weigh on map
     ratings_weighted = 3
     while ratings_weighted == 3:
-        ratings_weighted_resp = input('Would you like higher-rated restaurants to show more intensely on the map? (yes/no)\n>')
+        ratings_weighted_resp = input('\nWould you like higher-rated businesses to show more intensely on the map? (yes/[no])\n>')
         if ratings_weighted_resp == 'yes':
             ratings_weighted = 1
-        elif ratings_weighted_resp == 'no':
+        elif ratings_weighted_resp == 'no' or ratings_weighted_resp == '':
             ratings_weighted = 0
         else:
             print('Your response is invalid. Try again.\n')
@@ -64,7 +118,7 @@ def main():
     while current_offset <= max_results:
         #send the API request
         try:
-            response_json = request('https://api.yelp.com/v3/businesses/search?', 'location={0}&categories=bubbletea&limit=50&offset={1}'.format(location,current_offset), API_KEY)
+            response_json = request('https://api.yelp.com/v3/businesses/search?', 'location={0}&categories={1}&limit=50&offset={2}'.format(location,search_category,current_offset), API_KEY)
         except HTTPError as error:
             sys.exit(
                 'Encountered HTTP error {0} on {1}:\n {2}\nAbort program.'.format(
@@ -78,7 +132,7 @@ def main():
         response_businesses = response_json['businesses'];
         if len(response_businesses) == 0:
             if max_results == 2:
-                sys.exit('\nLocation does not have any boba shops or location does not exist :(')
+                sys.exit('\nLocation does not have any results available for that category or location does not exist :(')
             else:
                 break
 

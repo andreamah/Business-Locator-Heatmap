@@ -1,119 +1,74 @@
-,Name,lat,lon,Address,City
-0,Dragon Ball Tea House,49.2494649,-123.1278285,1007 W King Edward Avenue,Vancouver
-1,The Bubble Tea Shop,49.2901619,-123.1336788,1680 Robson Street,Vancouver
-2,Mr Mustache Bubble Tea,49.2125070604829,-123.140618528883,8079 Granville Street,Vancouver
-3,Passion Tearoom,49.2799105,-123.1240264,1020 Howe Street,Vancouver
-4,45 Degree Bubble Tea House,49.2899518,-123.1282259,1467 West Pender Street,Vancouver
-5,Bubble Bear Cafe,49.2126959118964,-123.140492905915,8051 Granville Street,Vancouver
-6,Sharetea,49.2599346,-123.1148551,2828 Cambie Street,Vancouver
-7,L & G Bubble Tea,49.2316503,-123.0904167,5816 Fraser Street,Vancouver
-8,Boba Monster,49.2321727,-123.0903989,5766 Fraser Street,Vancouver
-9,Rad Tea Room,49.2833513,-123.1163056,80-678 Dunsmuir Street,Vancouver
-10,Shiny Tea,49.28029,-123.10675,88 W Pender Street,Vancouver
-11,Soho Tea Room,49.25426,-123.11477,3466 Cambie Street,Vancouver
-12,Bubble Queen,49.2568617,-123.1268454,3208 Oak Street,Vancouver
-13,Rad on Denman,49.2916,-123.13478,774 Denman Street,Vancouver
-14,Comebuy,49.237747,-123.1556897,5335 West Blvd,Vancouver
-15,Infini Tea,49.2819052,-123.1167728,686 Seymour Street,Vancouver
-16,Vietnamese Tea House,49.2810051,-123.0540795,2526 E Hastings Street,Vancouver
-17,Happy Lemon,49.2856474,-123.1266978,1188 Robson Street,Vancouver
-18,Hot Cha Cafe,49.2556974,-123.1149056,3306 Cambie Street,Vancouver
-19,Chatime Langara,49.2272439177465,-123.116808906198,6361 Cambie Street,Vancouver
-20,Chatime West Broadway,49.26391,-123.14016,1545 West Broadway,Vancouver
-21,BAMBU,49.2529616,-123.0821567,1090 Kingsway,Vancouver
-22,Charisma Cafe & Dessert House,49.28018,-123.10866,181 Keefer Place,Vancouver
-23,Yifang  Fruit Tea,49.2909587238632,-123.134127259254,2 - 1725 Robson Street,Vancouver
-24,Taan Char,49.2139498,-123.1401191,7908 Granville Street,Vancouver
-25,Sencha Tea Lounge,49.2641584,-123.1810918,3468 West Broadway,Vancouver
-26,Bubble World,49.2330548743708,-123.032893891828,3377 Kingsway,Vancouver
-27,Chatime Kerrisdale,49.2311268,-123.1559262,6075 W Boulevard,Vancouver
-28,CoCo Fresh Tea & Juice,49.210647747919,-123.116624043789,491 SW Marine Drive,Vancouver
-29,WHEATchat Bubble Tea Cafe,49.2884,-123.14069,1103 Denman Street,Vancouver
-30,Buns + Boba,49.262969805638,-123.098344244063,327 E Broadway,Vancouver
-31,Green Leaf Bubble Tea,49.2322448,-123.090397,5756 Fraser Street,Vancouver
-32,TTOB,49.2556221,-123.1149089,3318 Cambie Street,Vancouver
-33,EXP Bubbletea And Lifestyle,49.2695331,-123.0695151,1706 Commercial Drive,Vancouver
-34,Bubble King,49.2803895558461,-123.106066994369,88 W Pender Street,Vancouver
-35,Pho Ever Restaurant,49.2117181823531,-123.139978162944,8178 Granville Street,Vancouver
-36,Sunflower Bubble Tea,49.2380606,-123.0322633,5125 Joyce Street,Vancouver
-37,Pearl Castle Café,49.1856964929706,-123.129386454821,3779 Sexsmith Road,Richmond
-38,Boba Boy,49.2344252936462,-123.158102360247,2148 W 41st Avenue,Vancouver
-39,Bubble World,49.23097,-123.00875,4300 Kingsway,Burnaby
-40,Chatime East Vancouver,49.280968,-123.048731,2740 E Hastings Street,Vancouver
-41,YiFang Taiwan Fruit Tea,49.2320243,-123.0267437,3612 Kingsway,Vancouver
-42,Angelove Bubble Tea,49.28088,-123.05912,2228 E Hastings St,Vancouver
-43,Sharetea,49.2323594,-123.0254168,3619 Kingsway,Vancouver
-44,Tealips Bubble Tea & Coffee,49.2193522513716,-122.956692892385,7139 Arcola Way,Burnaby
-45,Seven Lemon Tea,49.2462366,-123.1014445,4385 Main St,Vancouver
-46,Teapressu,49.29686,-123.13759,,Vancouver
-47,Boba Essence,49.2700452017364,-123.103336505592,68 E 1st Ave,Vancouver
-48,Presotea,49.2846614799521,-123.116223519244,777 Dunsmuir Street,Vancouver
-49,Happy Lemon,49.231976,-123.0277927,3520 Kingsway,Vancouver
-50,Xing Fu Tang Canada,49.254554,-123.1149538,3432 Cambie St,Vancouver
-51,My Toan,49.2845498,-123.1123772,555 W Hastings Street,Vancouver
-52,Bubble Waffle Cafe,49.26086,-123.11629,555 W 12th Avenue,Vancouver
-53,Blossom Teas,49.2825808112551,-122.953999689547,7198 Barnet Road,Burnaby
-54,T Cafe & Tea,49.2836325,-123.1129818,505 W Pender Street,Vancouver
-55,Tea Monarch,49.1731684,-123.1486362,6971 Elmbridge Way,Richmond
-56,Cafe Eggstatic,49.2290734,-123.0048795,4500 Kingsway,Burnaby
-57,T-Go Tea,49.1782582,-123.1213543,4720 McClelland Road,Richmond
-58,Happy Lemon,49.1700119,-123.1367549,105 6011 No.3 Road,Richmond
-59,Asaka Ramen,49.1931149107495,-123.129167854786,2780 No.3 Road,Richmond
-60,Mr. Mustache Tea & Dessert,49.22895,-122.999,6125 Sussex Ave,Burnaby
-61,Ki Tea House Cafe,49.220812,-122.988659,6888 Royal Oak Avenue,Burnaby
-62,Morning Star Bubble Tea,49.3147999993571,-123.101242599844,998 Harbourside Drive,North Vancouver
-63,Yifang Taiwan Fruit Tea,49.24966,-123.11497,4020 Cambie St,Vancouver
-64,Sugar Lab,49.2234556213025,-122.986080050468,5376 Grimmer Street,Burnaby
-65,Shiny Tea,49.1838587,-123.1353145,4000 No 3 Rd,Richmond
-66,Comebuy,49.22916,-123.00448,1610-4500 Kingsway,Burnaby
-67,Bobacabana,49.2018489,-122.9127047,800 Carvarvon Street,New Westminster
-68,Presotea,49.2314096664643,-123.117180035448,650 W 41st Avenue,Vancouver
-69,Gong Cha,49.2317904,-123.0313237,5712 Tyne Street,Vancouver
-70,Kung Fu Tea,49.2642349,-123.1692767,2855 W Broadway,Vancouver
-71,Fresh Elements,49.18621,-123.13344,3700 No 3 Road,Richmond
-72,Bubble World,49.186328553485,-123.12964247943,1136-8328 Capstan Way,Richmond
-73,Fun Hei,49.2545499876416,-123.115009479225,3432 Cambie St,Vancouver
-74,Chatime,49.1784729,-123.1308378,160-8351 Alexandra Road,Richmond
-75,Bobii Frutii,49.1789639,-123.1364351,4800 No.3 Road,Richmond
-76,Little Tea House,49.2327,-123.11719,Oakridge Mall,Vancouver
-77,Chatime Richmond,49.1541322137523,-123.124242757242,450-9100 Blundell Road,Richmond
-78,Le Tea,49.1856847088399,-123.129887612201,3779 Sexsmith Road,Richmond
-79,Yifang Fruit Tea,49.1877764,-123.1298538,1131-8338 Capstan Way,Richmond
-80,TTOB,49.18724,-123.12425,9020 Capstan Way,Richmond
-81,Tapio Tea,49.1948551,-123.0694188,1145-2551 No 6 Road,Richmond
-82,OneZo Tapioca,49.226619,-122.993358,4929 Kingsway,Burnaby
-83,ZenQ,49.281151,-123.0008752,4569 Hastings Street,Burnaby
-84,Sharetea,49.18769,-123.13128,8300 Capstan Way,Richmond
-85,Belmont Cafe,49.2118824021903,-122.920856638867,619 Belmont Street,New Westminster
-86,Boba Boy,49.22473,-122.98943,150-5172 Kingsway,Burnaby
-87,Bubble Tree Cafe,49.3288962,-123.1554122,1443 Clyde Avenue,West Vancouver
-88,Shiny Tea,49.2290734,-123.0048795,4000 Kingsway,Burnaby
-89,Wang Ji Restaurant Cafe,49.154142,-123.124236,470-9100 Blundell Road,Richmond
-90,Coco Fresh Tea & Juice,49.1849215979924,-123.129020329589,2116-3779 Sexsmith Road,Richmond
-91,Ph Tea,49.2661308,-123.2482558,6133 University Boulevard,Vancouver
-92,Edge Yuandian Tea & Juice Bar,49.263169,-123.1255685,106-950 W  Broadway,Vancouver
-93,鄉村 Xiangcun-Taiwanese street food house,49.2816419,-123.1328747,1183 Davie Street,Vancouver
-94,T cup,49.2463325,-123.1853649,4495 Dunbar Street,Vancouver
-95,Little Bean Bubble Tea House,49.1860336304316,-123.133853504838,1055 3700 No.3 Road,Richmond
-96,Yi Fang Fruit Tea,49.2344751,-123.1558821,2112 41 St Avenue W,Vancouver
-97,Big Orange Juice Bar,49.228843,-123.000427,4700 Kingsway,Burnaby
-98,Typhoon BBT,49.1839312913427,-123.093415684998,175-11700 Cambie Road,Richmond
-99,Estea Cafe Metro Place,49.2256396,-123.0046417,4466 Beresford Street,Burnaby
-100,Chatime,49.2260119556844,-123.001825139964,2250-4700 Kingsway,Burnaby
-101,Presotea,49.170345521259,-123.182957410445,115-3671 Westminster Highway,Richmond
-102,Gong Cha,49.169622,-123.136058,130-6068 Number 3 Road,Richmond
-103,Fresh Elements,49.1751651,-123.1365151,5300 No. 3 Road,Richmond
-104,Exposure Social House,49.1805567092563,-123.134720736557,4600 No. 3 Road,Richmond
-105,Presotea,49.1843955,-123.1363424,4000 No 3 Road,Richmond
-106,Sushi at Tea-mo,49.1843006,-123.1358871,4000 No. 3 Road,Richmond
-107,Spy Tea,49.1807945,-123.1364451,4540 No. 3 Road,Richmond
-108,Tea Plus,49.229095,-123.005007,4500 Kingsway,Burnaby
-109,Little Tea House,49.2276911,-123.004423,6200 McKay Avenue,Burnaby
-110,Sharetea,49.1691397,-123.1367549,6111 No 3 Road,Richmond
-111,Stir It Up Café,49.2680952,-123.2551433,1866 Main Mall,Vancouver
-112,Spiritea,49.18408,-123.13404,Unit 1968 4151 Hazelbridge Way,Richmond
-113,Taan Char,49.2297572454106,-123.004409596324,1696-4500 Kingsway,Burnaby
-114,Ochai Brewing,49.22457,-122.9858,5411 Kingsway,Burnaby
-115,Shiny Tea,49.1663525405338,-123.13783172518,1612-6551 No. 3 Road,Richmond
-116,Rich Tea,49.13926,-123.13786,10151 No 3 Road,Richmond
-117,Bubble World,49.278851401949,-122.919416271439,8888 University Dr,Burnaby
+,Name,lat,lon,Amount,Address,City
+0,Home Hardware Stores,49.27071,-123.06994,5.0,1575 Commercial Dr,Vancouver
+1,Summit Tools,49.269593217623,-123.018089973541,3.0,3905 1st Avenue,Burnaby
+2,Pacific Fasteners,49.2692151,-123.0178229,3.0,3934 E 1st Avenue,Burnaby
+3,Rona,49.2182112003609,-122.955484083835,2.5,7260 Edmonds Street,Burnaby
+4,Midland Liquidators,49.251534028253,-123.079166568123,4.5,1234 Kingsway,Vancouver
+5,Lee Valley Tools,49.2109851,-123.0825266,4.0,1180 SE Marine Drive,Vancouver
+6,Magnet Hardware,49.27071,-123.06994,4.5,1575 Commercial Dr,Vancouver
+7,KMS Tools & Equipment Ltd,49.23508,-122.86915,4.0,110 Woolridge Street,Coquitlam
+8,Sanitec,49.22916,-123.00448,5.0,1623-4500 Kingsway,Burnaby
+9,Dick's Lumber & Building Supplies,49.2611359,-123.0141151,3.0,2580 Gilmore Avenue,Burnaby
+10,West End Paint & Hardware,49.290116,-123.1344179,4.5,835 Bidwell Street,Vancouver
+11,The Home Depot,49.264368968611,-123.114316368175,3.0,2388 Cambie Street,Vancouver
+12,Bauer Industrial Equipment,49.20613,-123.01729,5.0,8678 Greenall Ave,Burnaby
+13,Gandy's Home Hardware Store,49.2679199,-123.1566,4.0,2262 W 4th Ave,Vancouver
+14,Kerrisdale Lumber,49.23003,-123.15614,4.0,6191 West Boulevard,Vancouver
+15,Dunbar Lumber Supply,49.2597535,-123.1529751,4.0,2930 Arbutus Street,Vancouver
+16,Lowe's,49.1865779,-122.9530591,2.0,1085 Tanaka Court,New Westminster
+17,Rona Home Centre,49.2012557374036,-122.917547364082,3.0,1015 Columbia Street,New Westminster
+18,Lee Valley Tools,49.22923,-122.84921,4.0,1401 United Boulevard,Coquitlam
+19,Lowe's Hardware,49.2597073484272,-123.048348287439,2.5,2727 E 12 Avenue,Vancouver
+20,Carleton Rescue Equipment,49.23518,-123.03738,4.0,3201 Kingsway,Vancouver
+21,Cantu Bathrooms & Hardware,49.20883,-123.10758,3.5,8351 Ontario Street,Vancouver
+22,Restoration Hardware,49.2631776,-123.1387958,2.5,2555 Granville Street,Vancouver
+23,Pearson's Home Hardware,49.3209335784038,-123.070934578397,3.5,139 East 14th Street,North Vancouver
+24,The Home Depot,49.32538,-123.140898,3.0,840 Main Street,West Vancouver
+25,The Source Enterprises,49.276502,-123.1000699,4.0,929 Main Street,Vancouver
+26,Benjamin Moore Paint,49.2805061,-122.9636459,1.0,6791 Hasting Street,Burnaby
+27,Rona Home Centre,49.2480546702414,-122.866460931818,3.5,425 Lebleu Street,Coquitlam
+28,Windsor Plywood,49.2656,-123.14051,3.0,1581 W 7th Avenue,Vancouver
+29,The Little Hardware & Locksmith,49.2830592115995,-123.13557659911,3.5,1320 Davie Street,Vancouver
+30,Caster Town Ltd,49.2723897,-123.0765228,4.0,1075 Clark Drive,Vancouver
+31,Steveston Marine & Hardware,49.26737,-123.14265,2.5,1667 W 5th Avenue,Vancouver
+32,Home Hardware,49.2801126951309,-123.130452732895,3.0,1053 Davie Street,Vancouver
+33,Coast Signature Paint Ltd,49.268913,-123.0238649,2.5,1747 Boundary Road,Vancouver
+34,Southridge Hardware,49.1559334,-122.9126816,4.5,11188 84th Avenue,Delta
+35,Bradford Hardware,49.26947,-123.14172,3.5,1626 W 2nd Avenue,Vancouver
+36,Rona Home Centre,49.2772759,-122.8032824,4.0,2798 Barnet Highway,Coquitlam
+37,Rain Centre Roofing,49.2550848,-122.9725224,1.0,6200 Darnley St,Burnaby
+38,Rain Centre Products,49.2550848,-122.9725224,1.0,6200 Darnley St,Burnaby
+39,Save More Plumbing Heating & Electrical Supplies,49.15589,-122.87955,4.5,12387 84 Avenue,Surrey
+40,Leafguard Pacific,49.189406,-123.0735021,3.5,3331 Viking Way,Richmond
+41,Rona Home Centre,49.1725761,-123.1462997,2.5,7111 Elmbridge Way,Richmond
+42,The Home Depot,49.2039355545583,-122.869339290295,2.0,12701 110 Avenue,Surrey
+43,Cloverdale Paint,49.1291434,-122.8453959,5.0,6950 King George Boulevard,Surrey
+44,Western Marine Company,49.2825,-123.07483,4.0,1494 Powell St,Vancouver
+45,Gescan Division of Sonepar Canada,49.26812,-123.10989,3.0,234 3rd Avenue W,Vancouver
+46,Rona Home Centre,49.3179451,-123.0986699,1.5,915 1st St W,North Vancouver
+47,Rona Home Centre,49.3082051,-123.0453421,2.0,1160 3rd Street E,North Vancouver
+48,Home Hardware Stores,49.32839,-123.16137,3.5,1750 Marine Dr,West Vancouver
+49,West Coast Gardener's,49.24625,-123.05014,5.0,4289 Slocan Street,Vancouver
+50,Green Line Hose & Fitting,49.16285,-122.95907,3.0,1477 Derwent Way,Delta
+51,Dulux Paints,49.2641106,-123.1520691,4.0,2091 Broadway W,Vancouver
+52,Dulux Paints,49.1421394,-122.8570633,4.0,7675 132nd St,Surrey
+53,International Plumbing & Electrical Supplies,49.28061,-123.09854,2.5,245 Pender Street  E,Vancouver
+54,Busy Bee Machine Tools,49.2297009,-122.8790648,5.0,30 Braid St,New Westminster
+55,Windsor Plywood,49.308713,-123.047405,3.0,309 Kennard Avenue,North Vancouver
+56,Arrow Equipment,49.3221583,-123.1057311,2.0,1132 West 15th Street,North Vancouver
+57,Rona Home Centre,49.12906,-122.84593,2.5,6965 King George Hwy,Surrey
+58,Tri-City Power Equipment,49.2283958038632,-122.834918087836,5.0,98 Fawcett Road,Coquitlam
+59,Green Line Hose & Fitting,49.27699,-123.07388,2.0,1521 Venables Street,Vancouver
+60,Dick's Lumber & Building Supplies,49.3188699,-123.09829,2.0,160 Hanes Ave,North Vancouver
+61,Acklands-Grainger,49.26719,-123.10878,3.0,150 4th Avenue W,Vancouver
+62,Diamond Store Fixtures,49.2109965,-123.0731949,1.0,1640 SE Marine Drive,Vancouver
+63,Gentile's Cabinets Plus,49.18873,-123.08317,5.0,12800 Bathgate Way,Richmond
+64,Summit Tools,49.2651406601988,-122.778249734085,3.0,3170-2850 Shaughnessy Street,Port Coquitlam
+65,Novus Glass,49.2645246,-122.7897082,3.0,2672 Bedford Street,Port Coquitlam
+66,Just Add Water,49.318619,-123.0998254,4.0,111-930 W 1st St,North Vancouver
+67,Rapid Tool Repair,49.13903,-123.01417,3.0,7551 Vantage Way,Delta
+68,Simpson Home Hardware,49.32839,-123.16137,3.0,1750 Marine Dr,West Vancouver
+69,Arnold's Equipment & Supplies,49.2187247,-123.1020886,1.0,7275 Main St,Vancouver
+70,Amre Supply Company Ltd,49.1747398,-123.1444321,1.0,7671 Alderbridge Way,Richmond
+71,Arnold & Sons Roofing,49.14074,-122.85427,1.0,13302 76 Avenue,Surrey
+72,Bluenose Plumbing & Heating Services,49.1203187,-122.84928,1.0,13459 64A Avenue,Surrey

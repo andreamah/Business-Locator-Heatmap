@@ -10,7 +10,7 @@ After entering your location and preferences into the console, the program will 
   * A set of location markers placed where the matching businesses are situated, with business names available on hover.
 + A **CSV file** that shows the shops and corresponding locations that are used by the map.
   
-  ![Heatmap GIF](location_label_example.GIF "Heatmap GIF")
+  ![Heatmap GIF](location_label_example.gif "Heatmap GIF")
   ![Heatmap Screenshot](heatmap_screenshot.PNG "Heatmap Screenshot")
   ![Search Example](search_example.PNG "Search Example")
 
@@ -20,3 +20,4 @@ After entering your location and preferences into the console, the program will 
 + The searchable categories are denoted on the [Yelp Developers website](https://www.yelp.com/developers/documentation/v3/all_category_list).
 + The map only includes businessses with at least one Yelp review.
 + At this time, the console and CSV file cannot display characters that must be decoded from Unicode (ie: Chinese characters). 
++ Remember to use your own Yelp API key if using this program, as mine is omitted.

@@ -15,7 +15,7 @@ except ImportError:
     # Fall back to Python 2's urllib2 and urllib
     from urllib2 import HTTPError
 
-API_KEY = 'iloYNi4xU0w6dN2Bi6k5H26zD5ftng1cPMYVqbc3sYO-pMme5dpIP0DvT7Bmk_65N0juMPblI7vFCDISx9gicPGD2aaJOYatgIa4Xiwk2e3m6wdxKI6ShWx_Qx0bXHYx' #API KEY
+API_KEY = '' #API KEY
 
 # function borrowed from https://github.com/Yelp/yelp-fusion/blob/master/fusion/python/sample.py
 def request(host, path, api_key, url_params=None):

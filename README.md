@@ -18,6 +18,6 @@ After entering your location and preferences into the console, the program will 
 
 ## Extra notes:
 + The searchable categories are denoted on the [Yelp Developers website](https://www.yelp.com/developers/documentation/v3/all_category_list).
-+ The map only includes businessses with at least one Yelp review.
++ The map only includes businesses with at least one Yelp review.
 + At this time, the console and CSV file cannot display characters that must be decoded from Unicode (ie: Chinese characters). 
 + Remember to use your own Yelp API key if using this program, as mine is omitted.
